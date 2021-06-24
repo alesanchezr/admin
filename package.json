@@ -80,7 +80,9 @@
     "ghp": "react-scripts build && gh-pages -d build",
     "lint": "eslint ./src",
     "lint-fix": "eslint ./src --fix",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\""
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "cy:open": "cypress open",
+    "cy:log": "cypress run"
   },
   "eslintConfig": {
     "extends": "react-app"
